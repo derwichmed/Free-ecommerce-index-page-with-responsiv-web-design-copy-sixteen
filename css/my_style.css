@@ -1,0 +1,262 @@
+body > header .nav_one{
+    border-bottom: #de0057 3px solid
+}
+.nav_bar .nav_bar_item{
+    display: inline-block;
+}
+.nav_bar .nav_bar_item .icon{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px
+}
+.nav_bar .nav_bar_item a:hover{
+    text-decoration: none
+}
+.nav_bar .nav_bar_item .content{
+    color: black;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+.nav_bar .nav_bar_item .content{
+    padding: 10px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px
+}
+.nav_bar .nav_bar_item .content:hover{
+    background-color: #de0057;
+    color: white
+}
+.nav_bar .nav_bar_item .active{
+    background-color: #de0057;
+    color: white
+}
+body > header .nav_two{
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+body > header .nav_two .sigle img{
+    width: 300px;
+    height: 50px
+}
+body > header .nav_two .search_box{
+    padding-top: 8px
+}
+body > header .nav_two .search_box .input-group{
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    border: #dcdcdc 2px solid
+}
+body > header .nav_two .search_box .input-group .form-control, 
+body > header .nav_two .search_box .input-group .input-group-text{
+    height: 100%;
+    background-color: transparent;
+    border: none
+} 
+body > header .nav_two .search_box .input-group .input-group-text img{
+    width: 20px;
+    height: 20px
+}
+body > header .nav_two .search_box .input-group .form-control::-webkit-input-placeholder {
+    color: #dcdcdc; 
+    font-weight: bold
+}
+body > header .nav_two .nav_bar{
+    padding-top: 7px
+}
+body > header .nav_three{
+    background-color: #f8f8f8;
+    border-bottom: skyblue 3px solid
+}
+.nav_bar_style_three .nav_bar_item .content:hover{
+    background-color: skyblue;
+    color: white
+}
+.nav_bar_style_three .nav_bar_item .content{
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    color: #363636
+}
+.nav_bar_style_three  .nav_bar_item .active{
+    background-color: skyblue;
+    color: white
+}
+.article_grand_plant > div{
+    background-color: #272727;
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px                 
+}
+.article_grand_plant .image{
+    box-shadow: 1px 0 #2a2a2a;
+    border-right: #3b3b3b 0.5px dotted
+}
+.article_grand_plant .image img{
+    width: 260px;
+    height: 360px;
+    display: block;
+    margin: auto                                 
+}
+.article_grand_plant .tiltle{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    color: white
+}
+.article_grand_plant .categorie_label{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    color: #a9a9a9;
+    text-decoration: underline
+}
+.article_grand_plant button{
+    background-color: #3b3b3b;
+    color: #a9a9a9;
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 15px
+}
+.article_grand_plant button img{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px
+}
+.article_grand_plant .list_image img{
+    width: 80px;
+    height: 80px;
+    margin: 10px
+}
+.products_liste_view_one{
+    margin-top: 50px;
+}
+.products_liste_view_one .item{
+    width: 200px
+}
+.products_liste_view_one .item .image{
+    position: relative;
+}
+.products_liste_view_one .item .image img{
+    width: 100%;
+    height: 200px;
+}
+.products_liste_view_one .item .revious{
+    padding: 0px;
+    list-style: none;
+}
+.products_liste_view_one .item .revious img{
+    display: inline-block;
+    width: 15px;
+    height: 15px
+}
+.products_liste_view_one .item .tiltle{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: center
+}
+.products_liste_view_one .item .revious .label{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    color: #a9a9a9;
+}
+.products_liste_view_one .item .prise{
+    color: skyblue;
+    text-align: center
+}
+.products_liste_view_one .item > div{
+    margin-top: 5px
+}
+.products_liste_view_one header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: #e4e4e4 2px solid;
+    margin-bottom: 20px
+}
+.products_liste_view_one header input{
+    height: 30px;
+    background-color: #e4e4e4;
+    color: black;
+    width: 100px
+}
+.products_liste_view_one header .label{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: bold
+}
+.products_liste_view_one .item .image .links{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0px;
+}
+.products_liste_view_one .item .image .links img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px
+}
+.products_liste_view_one .item{
+    cursor: pointer
+}
+.article_grand_plant_two{
+    margin-top: 80px;
+    margin-bottom: 80px
+}
+.article_grand_plant_two .image img{
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin: auto                     
+}
+.article_grand_plant_two .description .item .index > div{
+    width: 60px;
+    height: 60px;
+    background-color: #dcdcdc;
+    border-radius: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center
+}
+@media(max-width: 900px){
+    .nav_bar{
+        width: 100%
+    }
+    .nav_bar .nav_bar_item{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .nav_bar .nav_bar_item .icon{
+        display: inline-block
+    }
+    body > header .nav_two .sigle img{
+        width: 100%
+    }
+    body > header .nav_two .search_box .input-group{
+        width: 100%
+    }
+    .products_liste_view_one .item{
+        margin: auto;
+    }
+}
